@@ -1,0 +1,5 @@
+IRkernel
+IRkernel.Rcheck
+tests
+testthat.log
+*.swp
