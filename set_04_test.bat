@@ -11,4 +11,7 @@ sed -i "s/^\(if .*windows.*\)/# \\1/" ./tests/testthat.R
 cd tests/
 R --vanilla --slave < testthat.R > ../testthat.log
 
+cd ../
+sed -i "s/\\r\\n/\\n/g" ./testthat.log
+
 pause
