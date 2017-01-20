@@ -9,7 +9,6 @@ cp -R ../IRkernel ./
 cd IRkernel/
 rm -rf .git* .Rbuildignore .travis.*
 rm -rf cran-comments.md Makefile IRkernel.Rproj Dockerfile.dev
-mv ./example-notebooks/ ./inst/
 cd ../
 
 pause
